@@ -11,7 +11,7 @@
 [![Stars](https://img.shields.io/github/stars/CAIOanx/WearFall?style=social)](https://github.com/CAIOanx/WearFall/stargazers)
 [![Forks](https://img.shields.io/github/forks/CAIOanx/WearFall?style=social)](https://github.com/CAIOanx/WearFall/forks)
 
-[**Código**](firmware/Wearfall/Wearfall.ino) · [**Montagem**](docs/README.md) · [**Testes**](testes/README.md) · [**Reportar problema**](https://github.com/CAIOanx/WearFall/issues)
+[**Site demonstrativo**](https://caioanx.github.io/WearFall-Dashboard-Online/) · [**Código**](firmware/Wearfall/Wearfall.ino) · [**Montagem**](docs/README.md) · [**Testes**](testes/README.md) · [**Reportar problema**](https://github.com/CAIOanx/WearFall/issues)
 
 </div>
 
@@ -62,7 +62,7 @@ A gravação correta do teste ainda será adicionada. A demonstração anterior 
 
 > Imagens de página inicial, login e dashboard acima. O painel **local** do ESP32, acessível em **http://192.168.4.1** quando conectado à rede `WearFall_AP`, exibe os dados do dispositivo.
 
-Para conhecer a interface de apresentação, consulte [WearFall-Dashboard-Online](https://github.com/CAIOanx/WearFall-Dashboard-Online).
+**Acesso público à apresentação:** [Abrir site demonstrativo do WearFall](https://caioanx.github.io/WearFall-Dashboard-Online/). O código da interface está em [WearFall-Dashboard-Online](https://github.com/CAIOanx/WearFall-Dashboard-Online).
 
 ---
 
@@ -80,7 +80,7 @@ Para conhecer a interface de apresentação, consulte [WearFall-Dashboard-Online
 ### Interface
 
 - **HTML, CSS e JavaScript**, incorporados ao firmware pelo arquivo `dashboard_assets.h`.
-- Um painel web experimental separado também está disponível em [WearFall-Dashboard-Online](https://github.com/CAIOanx/WearFall-Dashboard-Online).
+- A versão web de apresentação está no [site demonstrativo](https://caioanx.github.io/WearFall-Dashboard-Online/), com código separado no [repositório WearFall-Dashboard-Online](https://github.com/CAIOanx/WearFall-Dashboard-Online).
 
 ---
 
@@ -165,7 +165,7 @@ Para consultar o histórico pelo **Monitor Serial**, use `H`. Para limpar os eve
 
 ### 🌐 Site de apresentação separado
 
-- O repositório [WearFall-Dashboard-Online](https://github.com/CAIOanx/WearFall-Dashboard-Online) contém uma **página inicial**, uma **tela de entrada** e uma **dashboard demonstrativa**.
+- O [site público demonstrativo](https://caioanx.github.io/WearFall-Dashboard-Online/) e o repositório [WearFall-Dashboard-Online](https://github.com/CAIOanx/WearFall-Dashboard-Online) apresentam uma **página inicial**, uma **tela de entrada** e uma **dashboard demonstrativa**.
 - A tela de entrada apenas apresenta o fluxo visual de login; **não implementa autenticação real ou cadastro de usuários**.
 - O painel de apresentação permite **simular eventos** para demonstrar a interface, mas **não recebe dados ao vivo do ESP32**, não envia alertas remotos e não substitui o painel local.
 
