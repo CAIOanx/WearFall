@@ -60,7 +60,7 @@ A gravação correta do teste ainda será adicionada. A demonstração anterior 
 
 ![Dashboard de monitoramento do WearFall](docs/screenshots/dashboard-monitoramento.png)
 
-> As imagens de página inicial, login e dashboard acima representam a versão web demonstrativa, que usa dados de exemplo. O painel **local** do ESP32, acessível em **http://192.168.4.1** quando conectado à rede `WearFall_AP`, exibe os dados do dispositivo.
+> Imagens de página inicial, login e dashboard acima. O painel **local** do ESP32, acessível em **http://192.168.4.1** quando conectado à rede `WearFall_AP`, exibe os dados do dispositivo.
 
 Para conhecer a interface de apresentação, consulte [WearFall-Dashboard-Online](https://github.com/CAIOanx/WearFall-Dashboard-Online).
 
