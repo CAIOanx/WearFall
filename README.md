@@ -40,13 +40,9 @@ O **WearFall** é um protótipo acadêmico voltado a apoiar o cuidado e a segura
   <img src="docs/screenshots/montagem-prototipo.jpg" alt="Montagem do protótipo WearFall em protoboard com ESP32, sensor inercial, LED e buzzer" width="720">
 </div>
 
-### 🎞️ Vídeo do teste de bancada
+### 🎞️ Registro em vídeo
 
-<div align="center">
-  <img src="docs/media/wearfall-demonstracao.gif" alt="GIF do teste físico de bancada do protótipo WearFall" width="720">
-</div>
-
-> Esta é uma demonstração do protótipo em bancada. O registro não comprova a detecção confiável de quedas reais nem validação clínica.
+A gravação correta do teste ainda será adicionada. A demonstração anterior foi retirada por não corresponder ao teste que se deseja documentar.
 
 ### 🖥️ Telas do projeto
 
@@ -157,9 +153,7 @@ WearFall/
 │   │   ├── dashboard-monitoramento.png
 │   │   └── README.md
 │   └── media/
-│       ├── wearfall-demonstracao.gif
-│       ├── wearfall-capa.jpg
-│       └── README.md
+│       └── README.md               # Vídeo correto ainda pendente
 ├── testes/
 │   └── README.md                  # Registros de bancada
 ├── imagens/
