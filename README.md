@@ -19,7 +19,7 @@
 
 ## 📋 Sobre o Projeto
 
-O **WearFall** é um protótipo acadêmico que usa um ESP32 e um sensor inercial para identificar eventos compatíveis com quedas. Em vez de considerar somente o impacto, o algoritmo analisa **queda livre, impacto, rotação, postura após o impacto e imobilidade**. A proposta é contribuir para soluções de monitoramento, ainda em fase de validação.
+O **WearFall** é um protótipo acadêmico voltado a apoiar o cuidado e a segurança de **pessoas idosas**. Usa um ESP32 e um sensor inercial para identificar eventos compatíveis com quedas. Em vez de considerar somente o impacto, o algoritmo analisa **queda livre, impacto, rotação, postura após o impacto e imobilidade**. A proposta é contribuir para soluções de monitoramento, ainda em fase de validação.
 
 ### ✨ Principais Funcionalidades
 
@@ -150,12 +150,20 @@ WearFall/
 │       └── dashboard_assets.h     # HTML, CSS e JS do painel local
 ├── docs/
 │   ├── README.md                  # Montagem e instruções
-│   └── screenshots/
-│       └── README.md              # Local reservado para imagens reais
+│   ├── screenshots/
+│   │   ├── montagem-prototipo.jpg
+│   │   ├── pagina-inicial.png
+│   │   ├── tela-login.png
+│   │   ├── dashboard-monitoramento.png
+│   │   └── README.md
+│   └── media/
+│       ├── wearfall-demonstracao.gif
+│       ├── wearfall-capa.jpg
+│       └── README.md
 ├── testes/
-│   └── README.md                  # Resultados dos testes físicos
+│   └── README.md                  # Registros de bancada
 ├── imagens/
-│   └── README.md                  # Local para fotos e logo
+│   └── README.md                  # Espaço reservado para logo e imagens extras
 └── README.md
 ```
 
@@ -195,7 +203,7 @@ Sugestões, relatos de problemas e propostas de melhoria podem ser enviados em [
 
 ## 📄 Licença
 
-**Ainda não foi definido um arquivo de licença para este repositório.** Não presumir licença MIT nem autorização ampla de reutilização até que uma licença seja escolhida e adicionada.
+**Licença ainda não escolhida.** O repositório está público para consulta, mas a publicação do código não concede automaticamente permissão de cópia, modificação ou redistribuição. Uma licença será adicionada após definição pelos responsáveis pelo projeto.
 
 ---
 
