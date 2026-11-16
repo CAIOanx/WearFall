@@ -34,15 +34,39 @@ O **WearFall** é um protótipo acadêmico que usa um ESP32 e um sensor inercial
 
 ## 🎬 Demonstração
 
-### Screenshots
+### 🧰 Montagem física do protótipo
 
-As capturas da montagem física e do painel serão adicionadas em [`docs/screenshots/`](docs/screenshots/README.md). **Ainda não há screenshots publicados neste repositório.**
+<div align="center">
+  <img src="docs/screenshots/montagem-prototipo.jpg" alt="Montagem do protótipo WearFall em protoboard com ESP32, sensor inercial, LED e buzzer" width="720">
+</div>
 
-### GIF demonstrativo
+### 🎞️ Vídeo do teste de bancada
 
-Um GIF com o funcionamento do protótipo poderá ser incluído em `docs/demo.gif` quando estiver disponível.
+<div align="center">
+  <img src="docs/media/wearfall-demonstracao.gif" alt="GIF do teste físico de bancada do protótipo WearFall" width="720">
+</div>
 
-> O endereço local do dispositivo é **http://192.168.4.1** quando o computador/celular estiver conectado à rede Wi-Fi do ESP32. **Não é uma demo pública na internet.**
+> Esta é uma demonstração do protótipo em bancada. O registro não comprova a detecção confiável de quedas reais nem validação clínica.
+
+### 🖥️ Telas do projeto
+
+**Página inicial — proposta de cuidado e acompanhamento de pessoas idosas**
+
+![Página inicial do site WearFall](docs/screenshots/pagina-inicial.png)
+
+**Tela de entrada — visualização do acesso ao painel**
+
+<div align="center">
+  <img src="docs/screenshots/tela-login.png" alt="Tela de login da versão web de apresentação do WearFall" width="440">
+</div>
+
+**Dashboard — monitoramento, alertas e histórico**
+
+![Dashboard de monitoramento do WearFall](docs/screenshots/dashboard-monitoramento.png)
+
+> As imagens de página inicial, login e dashboard acima representam a versão web demonstrativa, que usa dados de exemplo. O painel **local** do ESP32, acessível em **http://192.168.4.1** quando conectado à rede `WearFall_AP`, exibe os dados do dispositivo.
+
+Para conhecer a interface de apresentação, consulte [WearFall-Dashboard-Online](https://github.com/CAIOanx/WearFall-Dashboard-Online).
 
 ---
 
