@@ -1,3 +1,5 @@
-# 🖼️ Imagens do projeto
+# 🖼️ Imagens adicionais do projeto
 
-Local para fotos reais do circuito e para o logo oficial do WearFall. Quando uma foto for publicada, substitua o texto de demonstração no README por uma imagem Markdown como `![Montagem](imagens/montagem.jpg)`.
+As fotos já publicadas do protótipo e as capturas das interfaces estão em [docs/screenshots](../docs/screenshots/README.md). O GIF do teste físico e sua imagem de capa estão em [docs/media](../docs/media/README.md).
+
+Esta pasta pode ser usada futuramente para um logotipo oficial, diagramas ou novas imagens de divulgação. Não há necessidade de duplicar aqui os arquivos já publicados.
