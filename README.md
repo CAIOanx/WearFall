@@ -195,6 +195,7 @@ WearFall/
 │   └── README.md                  # Registros de bancada
 ├── imagens/
 │   └── README.md                  # Espaço reservado para logo e imagens extras
+├── LICENSE                       # Licença MIT
 └── README.md
 ```
 
@@ -234,7 +235,9 @@ Sugestões, relatos de problemas e propostas de melhoria podem ser enviados em [
 
 ## 📄 Licença
 
-**Licença ainda não escolhida.** O repositório está público para consulta, mas a publicação do código não concede automaticamente permissão de cópia, modificação ou redistribuição. Uma licença será adicionada após definição pelos responsáveis pelo projeto.
+O código e a documentação do WearFall estão disponibilizados sob a **[Licença MIT](LICENSE)**. É permitida a utilização, modificação e redistribuição do software, inclusive para fins comerciais, desde que o aviso de direitos autorais e a licença sejam preservados.
+
+A licença inclui uma isenção de garantias. **O WearFall é um protótipo acadêmico em desenvolvimento e não substitui sistemas certificados de monitoramento ou resposta a emergências.**
 
 ---
 
