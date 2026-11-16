@@ -136,6 +136,41 @@ Para consultar o histórico pelo **Monitor Serial**, use `H`. Para limpar os eve
 
 ---
 
+## 📋 Funcionalidades Detalhadas
+
+### 🧭 Monitoramento pelo ESP32
+
+- O sensor inercial fornece leituras de aceleração e rotação para análise no ESP32.
+- O algoritmo verifica uma sequência experimental de indícios: queda livre, impacto, rotação, mudança de postura e imobilidade aproximada.
+- Quando os critérios definidos são atendidos, o sistema entra no estado `ALERTA`. Quando não são confirmados, a ocorrência pode ser descartada.
+- O objetivo é sinalizar **possíveis quedas**; ainda não há comprovação de precisão para uso como dispositivo de segurança pessoal.
+
+### 🚨 Alertas e cancelamento
+
+- Em uma ocorrência confirmada pelo algoritmo, o ESP32 aciona o **LED** e o **buzzer** locais.
+- O alerta pode ser cancelado pelo **botão físico** do protótipo.
+- A dashboard local também oferece um botão para solicitar o cancelamento ao próprio ESP32 quando houver um alerta ativo.
+
+### 💾 Histórico de eventos
+
+- O firmware registra eventos com informações da análise e sua classificação.
+- O histórico mantém até **dez registros**, com persistência por `Preferences/NVS` para recuperação após reinicialização, quando o armazenamento está disponível.
+- O histórico pode ser consultado no painel local e pelo Monitor Serial.
+
+### 📶 Dashboard local do dispositivo
+
+- O ESP32 cria a rede Wi-Fi `WearFall_AP` e disponibiliza o painel em `http://192.168.4.1`.
+- A interface consulta **status e histórico diretamente do ESP32**, mostrando o monitoramento, os alertas e os eventos registrados.
+- Não é preciso ter acesso à internet para usar essa interface local, mas é necessário conectar-se à rede criada pelo dispositivo.
+
+### 🌐 Site de apresentação separado
+
+- O repositório [WearFall-Dashboard-Online](https://github.com/CAIOanx/WearFall-Dashboard-Online) contém uma **página inicial**, uma **tela de entrada** e uma **dashboard demonstrativa**.
+- A tela de entrada apenas apresenta o fluxo visual de login; **não implementa autenticação real ou cadastro de usuários**.
+- O painel de apresentação permite **simular eventos** para demonstrar a interface, mas **não recebe dados ao vivo do ESP32**, não envia alertas remotos e não substitui o painel local.
+
+---
+
 ## 🗂️ Estrutura de Pastas
 
 ```text
