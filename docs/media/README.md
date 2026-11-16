@@ -1,8 +1,9 @@
-# 🎞️ Mídias do WearFall
+# 🎞️ Demonstração em vídeo do WearFall
 
-Esta pasta contém os arquivos usados na seção [Demonstração do README](../../README.md).
+O GIF e a capa publicados anteriormente foram retirados porque não correspondiam ao teste correto.
 
-- [wearfall-demonstracao.gif](wearfall-demonstracao.gif) — GIF convertido do vídeo de teste físico em bancada
-- [wearfall-capa.jpg](wearfall-capa.jpg) — imagem de capa extraída do vídeo
+Quando a gravação correta estiver disponível, esta pasta poderá receber o vídeo original (ou um link para ele) e uma versão otimizada para visualização no README.
 
-O GIF documenta um teste do protótipo, **não uma validação com quedas reais de pessoas**. Para a fotografia da montagem e capturas do site, consulte [docs/screenshots](../screenshots/README.md).
+A versão demonstrativa deve representar apenas o teste realizado. É diferente de validação em quedas reais de pessoas.
+
+Para a foto de montagem e as capturas do site, consulte [docs/screenshots](../screenshots/README.md).
