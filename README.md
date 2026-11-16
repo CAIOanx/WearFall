@@ -40,9 +40,11 @@ O **WearFall** é um protótipo acadêmico voltado a apoiar o cuidado e a segura
   <img src="docs/screenshots/montagem-prototipo.jpg" alt="Montagem do protótipo WearFall em protoboard com ESP32, sensor inercial, LED e buzzer" width="720">
 </div>
 
-### 🎞️ Registro em vídeo
+### 🎥 Vídeo de apresentação do protótipo
 
-A gravação correta do teste ainda será adicionada. A demonstração anterior foi retirada por não corresponder ao teste que se deseja documentar.
+📌 **[Assistir à demonstração do WearFall no Google Drive](https://drive.google.com/file/d/1UXA2w0l-CHPcZaSeEzMucnGMQJVu-tlR/view?usp=sharing)**
+
+A gravação apresenta o circuito do projeto. Trata-se de um registro de protótipo acadêmico em bancada, não de validação em quedas reais.
 
 ### 🖥️ Telas do projeto
 
