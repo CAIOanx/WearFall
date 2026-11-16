@@ -260,6 +260,5 @@ Agradecimentos aos colaboradores e à orientação acadêmica do TCC.
 
 **WearFall — protótipo acadêmico em desenvolvimento.**
 
-⚠️ Não substitui sistemas profissionais ou certificados de atendimento e monitoramento de emergências.
 
 </div>
