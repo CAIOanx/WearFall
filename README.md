@@ -11,7 +11,7 @@
 [![Stars](https://img.shields.io/github/stars/CAIOanx/WearFall?style=social)](https://github.com/CAIOanx/WearFall/stargazers)
 [![Forks](https://img.shields.io/github/forks/CAIOanx/WearFall?style=social)](https://github.com/CAIOanx/WearFall/forks)
 
-[**Site demonstrativo**](https://caioanx.github.io/WearFall-Dashboard-Online/) · [**Código**](firmware/Wearfall/Wearfall.ino) · [**Montagem**](docs/README.md) · [**Testes**](testes/README.md) · [**Reportar problema**](https://github.com/CAIOanx/WearFall/issues)
+[**Site**](https://caioanx.github.io/WearFall-Dashboard-Online/) · [**Código**](firmware/Wearfall/Wearfall.ino) · [**Montagem**](docs/README.md) · [**Testes**](testes/README.md) · [**Reportar problema**](https://github.com/CAIOanx/WearFall/issues)
 
 </div>
 
